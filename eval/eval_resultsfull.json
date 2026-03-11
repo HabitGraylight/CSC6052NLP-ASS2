@@ -1,0 +1,24 @@
+{
+  "test_set": "/root/data/gsm8k/test.parquet",
+  "num_samples": 100,
+  "base_model": {
+    "model": "Base Model",
+    "accuracy": 0.1577,
+    "correct": 208,
+    "total": 1319
+  },
+  "sft_model": {
+    "model": "SFT-357 Model",
+    "accuracy": 0.3055,
+    "correct": 403,
+    "total": 1319
+  },
+  "improvement_percentage1": 93.66037735849057,
+  "rl_model": {
+    "model": "SFT-357 Model",
+    "accuracy": 0.6194,
+    "correct": 817,
+    "total": 1319
+  },
+  "improvement_percentage2": 292.78846153846155
+}
